@@ -3,15 +3,10 @@ class Verible < Formula
   homepage "https://github.com/chipsalliance/verible"
   url "https://github.com/chipsalliance/verible.git",
       branch:   "master",
-      tag:      "v0.0-1547-g5784ecba",
-      revision: "5784ecba034456f4a4ece82120ff1247293b1bee"
-  version "0.0-1547-g5784ecba"
+      tag:      "v0.0-2479-g92928558",
+      revision: "9292855870987559d0c9836bf7d057e96e249c91"
+  version "0.0-2479-g92928558"
   license "Apache-2.0"
-
-  bottle do
-    root_url "https://github.com/chipsalliance/homebrew-verible/releases/download/verible-0.0-1547-g5784ecba"
-    sha256 cellar: :any_skip_relocation, big_sur: "a616d584bafa3199f9aa05e7dfec8a13df720d59206d6f2ea0e04b84b7905cc0"
-  end
 
   head do
     url "https://github.com/chipsalliance/verible.git"
